@@ -15,6 +15,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *flipsLabel;
 @property (nonatomic) int flipCount;
 @property (strong, nonatomic) Deck *deck;
+@property (strong, nonatomic) IBOutletCollection(UIButton) NSArray *cardButtons;
 @end
 
 @implementation CardGameViewController
@@ -23,6 +24,12 @@
 {
     if (!_deck) _deck = [[PlayingCardDeck alloc] init];
     return _deck;
+}
+
+- (void)setCardButtons:(NSArray *)cardButtons
+{
+    _cardButtons = cardButtons;
+    
 }
 
 - (void)setFlipCount:(int)flipCount
