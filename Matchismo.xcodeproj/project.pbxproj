@@ -23,6 +23,7 @@
 		30726DE916A51413007C2B2B /* Deck.m in Sources */ = {isa = PBXBuildFile; fileRef = 30726DE816A51413007C2B2B /* Deck.m */; };
 		30726DEC16A516BE007C2B2B /* PlayingCard.m in Sources */ = {isa = PBXBuildFile; fileRef = 30726DEB16A516BE007C2B2B /* PlayingCard.m */; };
 		30726DF216A51C10007C2B2B /* PlayingCardDeck.m in Sources */ = {isa = PBXBuildFile; fileRef = 30726DF116A51C10007C2B2B /* PlayingCardDeck.m */; };
+		3094D0EA16AE805500BDC2A3 /* cardBack.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 3094D0E916AE805500BDC2A3 /* cardBack.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		30726DEB16A516BE007C2B2B /* PlayingCard.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlayingCard.m; path = Model/PlayingCard.m; sourceTree = "<group>"; };
 		30726DF016A51C10007C2B2B /* PlayingCardDeck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlayingCardDeck.h; sourceTree = "<group>"; };
 		30726DF116A51C10007C2B2B /* PlayingCardDeck.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlayingCardDeck.m; sourceTree = "<group>"; };
+		3094D0E916AE805500BDC2A3 /* cardBack.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = cardBack.jpeg; path = ../../../CS193P/cardBack.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				30726DD816A3DDD1007C2B2B /* MainStoryboard.storyboard */,
 				30726DDB16A3DDD1007C2B2B /* CardGameViewController.h */,
 				30726DDC16A3DDD1007C2B2B /* CardGameViewController.m */,
+				3094D0E916AE805500BDC2A3 /* cardBack.jpeg */,
 				30726DC716A3DDD1007C2B2B /* Supporting Files */,
 			);
 			path = Matchismo;
@@ -197,6 +200,7 @@
 				30726DD516A3DDD1007C2B2B /* Default@2x.png in Resources */,
 				30726DD716A3DDD1007C2B2B /* Default-568h@2x.png in Resources */,
 				30726DDA16A3DDD1007C2B2B /* MainStoryboard.storyboard in Resources */,
+				3094D0EA16AE805500BDC2A3 /* cardBack.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
